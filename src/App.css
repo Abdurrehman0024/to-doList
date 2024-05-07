@@ -45,3 +45,15 @@ body {
   margin-left: 5px;
   text-align: center;
 }
+.remove{
+  background-color: red;
+  color: white;
+}
+.headertask{
+  margin-bottom: auto;
+  padding-left: 110px;
+}
+.inputbar{
+  position: absolute;
+  padding-right: 100px;
+}

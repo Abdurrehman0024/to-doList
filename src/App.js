@@ -37,8 +37,10 @@ function App() {
 
   return (
     <div className="App">
+      <h1>To-Do List</h1>
       <div className="addTask">
-        <input onChange={handleChange} />
+        <h1 className="headertask">Create a New Task:</h1>
+        <input  className="inputbar" onChange={handleChange} />
         <button onClick={addTask}> Add Task</button>
       </div>
       <div className="list">
@@ -50,8 +52,11 @@ function App() {
               completed={task.completed}
               deleteTask={deleteTask}
               completeTask={completeTask}
+              
             />
+        
           );
+          
         })}
       </div>
     </div>
